@@ -1,0 +1,593 @@
+body{
+  font:1vw Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:2%;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px;
+}
+nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+min-height: 8vh;
+font-family:Helvetica;
+}
+nav h1{
+color: white;
+text-transform: uppercase;
+letter-spacing: 3px;
+font-size:2.5rem;
+}
+nav ul {
+display: flex;
+justify-content: space-around;
+color: white;
+width: 30%;
+}
+nav ul li{
+list-style: none;
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 1.5rem;
+}
+
+nav label, #burgerMenu{
+display: none;
+}
+
+
+/************** Main Body ***************/
+
+#clubsSocietys{
+  min-height:600px;
+  background:url('../Images/society.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+  margin-top: 2%;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  
+}
+
+#clubsSocietys h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+#clubsSocietys p{
+  font-size:20px;
+}
+button{
+ font-size: 1.7vw;
+font-family: Helvetica;
+border-radius: 20px;
+ text-align: center;
+ text-decoration: none;
+ border: 5px solid white;
+ padding: 2%;
+ width:50%;
+opacity: 1;
+}
+#BoxImg{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(76, 175, 80, 0.1)), url(../Images/peopleTalking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#BoxImg >p{
+opacity: 0.7;
+}
+/***************** Our Clubs Style *********************/
+#theClub{
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  margin-top: 2%;
+  min-height:600px;
+  background:url('../Images/theClub.png') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+  margin-bottom:2%;
+}
+
+#theClub h1{
+  margin-top:8%;
+  font-size:3vw;
+  margin-bottom:10px;
+}
+#tennisClub{
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  min-height:600px;
+  background:url('../Images/ourTennisClub.jpg') no-repeat 0 -400px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align:center;
+  color:#ffffff;
+  margin-top: %;
+}
+
+#tennisClub h1{
+  margin-top:8%;
+  font-size:3vw;
+  margin-bottom:10px;
+}
+#basketballClub{
+  min-height:600px;
+  background:url('../Images/basketballClub.jpg') no-repeat 0 -400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align:center;
+  color:#ffffff;
+  margin-top: %;
+}
+
+#basketballClub h1{
+  margin-top:8%;
+  font-size:3vw;
+  margin-bottom:10px;
+}
+#footballClub{
+  min-height:600px;
+  background:url('../Images/footballClub.jpg') no-repeat 0 -400px;
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  text-align:center;
+  color:#ffffff;
+    border-bottom-right-radius: 50px;
+  border-bottom-left-radius:50px
+}
+
+#footballClub h1{
+  margin-top:8%;
+  font-size:3vw;
+  margin-bottom:10px;
+  
+}
+/****************** Boxes ****************/ 
+.ContactUsSection
+{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Images/footballs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  margin-top: 1px;
+  padding-top: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  width: 100%;
+  max-width: 98%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.ContactUsSection> h2
+{
+color: black;
+font-family: sans-serif;
+}
+/************* Club Boxes *************/
+#boxes{
+  padding-top: 4%;
+  margin-top:0;
+  background-color: white;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
+}
+#secondBoxes{
+  padding-top: 2%;
+  margin-top:0;
+  background-color: white;
+}
+
+#secondBoxes .box2{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:1%;
+  background-color:#35424a;
+  color:  white;
+}
+
+#secondBoxes .box2 img{
+  width:90px;
+}
+footer{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:2%;
+  min-height:70px;
+  border-bottom:black 3px solid;
+  border-top-right-radius: 50px;
+  border-top-left-radius:50px;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 2rem; 
+}
+
+/******* contact us page********/
+#clubsContact{
+  min-height:600px;
+  background:url('../Images/sky.jpg') no-repeat 0 -400px;
+  text-align:center;
+  color:#ffffff;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-top-left-radius:50px;
+  border-top-right-radius:50px;
+  border-bottom-left-radius:50px;
+  border-bottom-right-radius:50px;
+  
+}
+.InfoBox  /**** Box Containing Info ****/
+{
+  border-radius: 30px;
+  padding: 5.2%;
+  width: 20%;
+  display: inline-block;
+  background:#292929;
+  margin: .7%;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.InfoBox i  /**** The Underneath of the icons  ****/
+  {
+  border-radius: 30px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 2vw;
+  line-height: 450%;
+  background: #35424a;
+  z-index: 1;
+  transition: transform 0.6s;
+}
+.InfoBox span{ /**** Box Text Area ****/
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 2%; 0;
+  font-family: sans-serif;
+  font-size: 1vw;
+}
+
+.InfoBox:hover i{ /**** Moves On the Y Axis up 40px ****/
+  transform: translateY(-40px); 
+}
+
+#clubsContact h1{
+  margin-top:7.5%;
+  font-size:3vw;
+  margin-bottom:1%;
+}
+#clubsContact p{
+  font-size:20px;
+}
+#FindUsForm
+{
+width: 800%;
+max-width:40%;
+height:auto;
+background:#35424a;
+align-content: center;
+text-align: center;
+border: 0px solid grey;
+border-radius: 30px;
+margin: auto;
+font-family: sans-serif;
+padding: 30px;
+line-height: 2.1;
+box-shadow: 0 5px 15px rgba(0,0,0,.5);   
+}
+#h2Contact{ color: white;}
+
+#first-name
+{
+text-align: center;
+padding:5%;
+padding-left: 1%;
+width: 100%;
+max-width: 90%;
+border: 3px lightgrey solid;
+border-radius: 100px;
+clear: both;
+font-size: 1vw;
+margin-bottom: 1%;
+}
+#last-name
+{
+text-align: center;
+padding:5%;
+padding-left: 1%;
+width: 100%;
+max-width: 90%;
+border: 3px lightgrey solid;
+border-radius: 100px;
+clear: both;
+font-size: 1vw;
+margin-bottom: 1%;
+}
+#email
+{
+text-align: center;
+padding:5%;
+padding-left: 1%;
+width: 100%;
+max-width: 90%;
+border: 3px lightgrey solid;
+border-radius: 100px;
+clear: both;
+font-size: 1vw;
+margin-bottom: 1%;
+}
+#phone
+{
+text-align: center;
+padding:5%;
+width: 100%;
+max-width: 90%;
+padding-left: 2%;
+border: 3px lightgrey solid;
+border-radius: 100px;
+clear: both;
+font-size: 1vw;
+margin-bottom: 1%;
+}
+#message
+{
+text-align: center;
+align-content: center;
+padding: 2%;
+width: 100%;
+max-width: 90%;
+border: 3px lightgrey solid;
+border-radius: 10px;
+clear: both;
+font-size: 1.2vw;
+margin-top: 1%;
+margin-bottom: 1%;  
+font-family: sans-serif;
+}
+#submitbutton
+{
+align-content: center;
+padding: 2%;
+width: 100%;
+max-width: 95%;
+border: 3px lightgrey solid;
+border-radius: 10px;
+clear: both;
+font-size: 1.2vw;
+margin-top: 1%;
+margin-bottom: 1%;  
+font-family: sans-serif;
+}
+#submitbutton:hover
+{
+background:#5e5e5e;
+transition: 0.7s;
+cursor: pointer;
+}
+/**************************** Media Query *****************************/
+@media(max-width:768px){
+header{
+border-radius: 0;
+ 
+}
+header #clubHeader{
+  font-size:1rem;
+}
+header li {
+text-align: center;
+padding: 2px;
+}
+.container{
+width: 100%;
+}
+#clubsSocietys{
+border-radius: 0;
+margin:0    
+}
+nav h1{
+text-align: center;
+font-size: 1.7rem;
+}
+nav ul{
+position: absolute;
+right:0;
+height: 92vh;
+top:8vh;
+background-color: #35424a;
+display: flex;
+flex-direction: column;
+align-content: center;
+width: 100%;
+transform: translateX(100%);
+
+}
+nav ul li{
+}
+#burgerMenu{
+display: block;
+}
+nav label{
+padding: 1%;
+font-size: 5.5em;
+font-style: normal;
+display: block;
+}
+nav #burgerMenu{
+display:none;
+}
+#burgerMenu input:checked ~ nav ul{
+transform: translateX(1%);
+}
+#clubsSocietys h1{
+font-size: 2rem;
+}
+#clubSocietys p{
+font-size: 1rem;
+}
+ #boxes .box{
+  float:none;
+  text-align: center;
+  width:98%;
+  padding:1%;
+  font-size: 1rem;
+  }  
+ #secondBoxes .box2{
+  float:none;
+  text-align:center;
+  width:100%;
+  padding:1%;
+  background-color:#35424a;
+  font-size: 1rem;
+  color:  white;
+ }
+button{
+font-size: 1rem; 
+}
+/************** Club Queries ***************/
+#theClub{
+font-size: 1rem;
+border-radius: 0;
+margin: 0;
+min-height: 0;
+ }
+   #theClub h1{
+   font-size: 2rem;     
+   }
+    #tennisClub{
+    font-size: 1rem;
+    border-radius: 0;
+    margin: 0;
+    min-height: 0;
+    }
+    #tennisClub h1{
+    font-size:2rem;
+    }
+    #basketBallClub{
+     font-size: 1rem;
+     border-radius: 0;
+     margin: 0;  
+    }
+    #basketBallClub h1{
+     font-size: 2rem;
+    }
+    #footBallClub{
+    font-size: 1rem;
+    border-radius: 0;
+    margin: 0;
+    min-height: 0;
+    }
+    #footBallClub h1{
+    font-size: 2rem;
+    }
+    /*************** Contact Us Queries ***************/
+    #clubsContact{
+    border-radius: 0;
+    margin: 0;
+    }
+    #clubsContact h1{
+    font-size:2rem;
+    padding-bottom: 2%;
+    }
+.InfoBox 
+{
+width:50%;
+padding: 10%;
+margin-top: 4%;
+margin-bottom: 4%;
+}
+.InfoBox i{
+font-size: 2rem;
+line-height: 300%;
+}
+    .InfoBox Span{
+     font-size: 1rem;
+    }
+   .InfoBox:hover i{ /**** Moves On the Y Axis up 40px ****/
+    transform: translateY(-30px); 
+}
+#FindUsForm{
+max-width: 90%;
+border-radius: 0;
+    
+}
+#h2Contact{
+font-size: 2rem;
+}
+    #first-name{
+    font-size: 1rem;
+    margin-bottom: 2%;
+    }
+    #last-name{
+      font-size: 1rem;
+      margin-bottom: 2%;
+    }
+    #email{
+      font-size: 1rem;
+      margin-bottom: 2%;
+     }
+    #phone{
+      font-size: 1rem;
+      margin-bottom: 2%;
+    }
+    #message{
+      font-size: 1rem;
+      margin-bottom: 2%;
+    }
+      #submitbutton{
+      font-size: 1rem;
+      width: 60%;
+      border-radius: 60px;
+    }
+footer{
+line-height: 2;
+border-radius: 0;
+  }
+}
+
+
+
+
+
+
+
